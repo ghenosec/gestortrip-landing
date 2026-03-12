@@ -1,4 +1,4 @@
-# GestorTrip — Landing Page
+# 🌎⚙ GestorTrip — Landing Page
 
 Landing page oficial do [**GestorTrip**](https://github.com/ghenosec/GestorTrip), um sistema desktop desenvolvido para **gestão completa de viagens, pagamentos e clientes**.
 
@@ -7,7 +7,7 @@ O objetivo da página é apresentar o produto, demonstrar a interface e facilita
 
 ---
 
-# 🌐 Sobre o GestorTrip
+## 🌐 Sobre o GestorTrip
 
 O **GestorTrip** é um software desktop voltado para organizadores de viagens, agências e operadores de turismo que precisam controlar:
 

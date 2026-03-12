@@ -10,7 +10,7 @@ const WHATSAPP_URL =
 const navLinks = [
   { label: "Funcionalidades", href: "#features" },
   { label: "Como Funciona", href: "#how-it-works" },
-  { label: "Screenshots", href: "#screenshots" },
+  { label: "Interface", href: "#screenshots" },
   { label: "Contato", href: "#download" },
 ];
 

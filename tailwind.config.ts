@@ -27,6 +27,11 @@ const config: Config = {
           dark:    "#0099B4",
           light:   "#33D8F0",
         },
+        green: {
+          DEFAULT: "#23B966",
+          dark:    "#1A8449",
+          light:   "#4FB67B",
+        },
         violet: {
           DEFAULT: "#5B8AF0",
           dark:    "#3A65C8",

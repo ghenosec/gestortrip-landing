@@ -52,7 +52,12 @@ body {
 }
 
 .gradient-text {
-  background: linear-gradient(130deg, #00C8E8 0%, #5B8AF0 50%, #8B6FF7 100%);
+  background: linear-gradient(
+    90deg, 
+    #3797D3 0%,
+    #4FB67B 35%,
+    #23B966 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -60,10 +65,10 @@ body {
 }
 
 .glass {
-  background: rgba(8, 15, 40, 0.75);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(26, 48, 100, 0.8);
+  background: rgba(4, 9, 26, 0.85);
+  backdrop-filter: blur(12px) saturate(120%);
+  -webkit-backdrop-filter: blur(12px) saturate(120%);
+  border-bottom: 1px solid rgba(26, 48, 100, 0.5);
 }
 
 .glow-teal   { box-shadow: 0 0 40px rgba(0, 200, 232, 0.18); }
@@ -84,17 +89,17 @@ body {
   position: absolute;
   top: 0; left: 0; right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(0, 200, 232, 0.5), transparent);
+  background: linear-gradient(90deg, transparent, rgba(0, 200, 232, 0.), transparent);
   z-index: 10;
 }
 
 .btn-shimmer {
   background: linear-gradient(
-    90deg,
-    #00C8E8 0%,
-    #5B8AF0 35%,
-    #8B6FF7 65%,
-    #00C8E8 100%
+    90deg, 
+    #3797D3 0%,
+    #4FB67B 35%,
+    #23B966 65%,
+    #3797D3 100%
   );
   background-size: 200% auto;
   animation: shimmer 3s linear infinite;
@@ -115,7 +120,7 @@ body {
 }
 
 .stat-number {
-  font-family: var(--font-sora);
+  font-family: var(--font-marope);
   font-weight: 700;
   line-height: 1;
   background: linear-gradient(135deg, #EEF2FF 0%, #7A9CC8 100%);

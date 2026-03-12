@@ -25,12 +25,14 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled ? "glass border-b border-border py-3" : "bg-transparent py-5"
-      }`}
-    >
-      <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
+        <nav
+  className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+    scrolled
+      ? "glass-navbar border-border py-3"
+      : "bg-transparent py-5"
+  }`}
+>
+      <div className="relative max-w-7xl mx-auto px-6 flex items-center justify-between">
         <a href="#">
           <div className="relative w-40 h-10">
             <Image
@@ -69,7 +71,7 @@ export default function Navbar() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 bg-teal text-background text-sm font-semibold px-5 py-2.5 rounded-lg hover:bg-teal-light transition-colors duration-200 font-body"
+            className="flex items-center gap-2 bg-[#23B966] text-background text-sm font-semibold px-5 py-2.5 rounded-lg hover:bg-[#4FB67B] transition-colors duration-200 font-body"
           >
             <MessageCircle size={15} />
             Falar no WhatsApp

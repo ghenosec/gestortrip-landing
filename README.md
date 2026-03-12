@@ -58,6 +58,8 @@ Arquivos utilizados:
 ---
 
 # 📁 Estrutura do Projeto
+
+```
 gestortrip-landing/
 ├── app/
 │ ├── favicon.ico
@@ -81,7 +83,7 @@ gestortrip-landing/
 └── screenshots/
 ├── dashboard-light.png
 └── dashboard-dark.png
-
+```
 
 ---
 

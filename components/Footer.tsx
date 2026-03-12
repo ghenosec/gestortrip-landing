@@ -65,7 +65,7 @@ export default function Footer() {
           {Object.entries(links).map(([group, items]) => (
             <div key={group}>
 
-              <p className="font-display font-bold text-text-primary text-sm mb-5 tracking-wide">
+              <p className="font-manrope font-bold text-text-primary text-sm mb-5 tracking-wide">
                 {group}
               </p>
 

@@ -56,7 +56,7 @@ export default function Stats() {
           {stats.map((stat) => (
             <div key={stat.label} className="bg-surface border border-border rounded-2xl p-8 text-center hover:border-border-2 transition-colors">
               <CountUp value={stat.value} suffix={stat.suffix} active={active} />
-              <p className="font-display font-bold text-text-primary mt-2 mb-1">{stat.label}</p>
+              <p className="font-manrope font-bold text-text-primary mt-2 mb-1">{stat.label}</p>
               <p className="font-body text-text-muted text-sm">{stat.desc}</p>
             </div>
           ))}

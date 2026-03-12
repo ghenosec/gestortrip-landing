@@ -79,7 +79,7 @@ export default function HowItWorks() {
             Como funciona
           </span>
           <h2
-            className="font-display font-extrabold text-text-primary mb-5 leading-tight"
+            className="font-manrope font-extrabold text-text-primary mb-5 leading-tight"
             style={{ fontSize: "clamp(2rem, 4vw, 3rem)" }}
           >
             Do contato ao controle total
@@ -119,14 +119,14 @@ export default function HowItWorks() {
                   <div className="flex-1 bg-surface border border-border rounded-2xl px-8 py-6 hover:border-border-2 transition-colors">
                     <div className="flex items-start gap-4">
                       <span
-                        className={`font-display font-extrabold text-5xl leading-none mt-1 flex-shrink-0 ${
+                        className={`font-manrope font-extrabold text-5xl leading-none mt-1 flex-shrink-0 ${
                           isTeal ? "text-teal/20" : "text-violet/20"
                         }`}
                       >
                         {step.number}
                       </span>
                       <div className="flex-1">
-                        <h3 className="font-display font-bold text-text-primary text-xl mb-2">
+                        <h3 className="font-manrope font-bold text-text-primary text-xl mb-2">
                           {step.title}
                         </h3>
                         <p className="font-body text-text-secondary leading-relaxed mb-4">
@@ -137,10 +137,10 @@ export default function HowItWorks() {
                             href={WHATSAPP_URL}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex items-center gap-2 bg-teal text-background text-sm font-semibold px-5 py-2.5 rounded-lg hover:bg-teal-light transition-colors font-body"
-                          >
-                            <MessageCircle size={14} />
-                            Falar no WhatsApp
+                            className="inline-flex items-center gap-2 bg-[#23B966] text-background text-sm font-semibold px-5 py-2.5 rounded-lg hover:bg-[#4FB67B] transition-colors font-body"
+                            >
+                              <MessageCircle size={14} />
+                              Falar no WhatsApp
                           </a>
                         )}
                       </div>

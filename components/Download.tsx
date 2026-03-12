@@ -79,7 +79,7 @@ export default function DownloadSection() {
           </div>
 
           <h2
-            className="font-display font-extrabold leading-tight mb-6"
+            className="font-manrope font-extrabold leading-tight mb-6"
             style={{ fontSize: "clamp(2.2rem, 5vw, 3.8rem)" }}
           >
             <span className="text-text-primary">Comece a organizar</span>

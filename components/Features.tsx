@@ -50,7 +50,7 @@ function FeatureCard({ feature, delay }: { feature: (typeof features)[0]; delay:
       <div className={`w-12 h-12 rounded-xl flex items-center justify-center mb-5 ${isTeal ? "bg-teal/10 text-teal" : "bg-violet/10 text-violet"}`}>
         <Icon size={22} />
       </div>
-      <h3 className="font-display font-bold text-text-primary text-lg mb-2">{feature.title}</h3>
+      <h3 className="font-manrope font-bold text-text-primary text-lg mb-2">{feature.title}</h3>
       <p className="font-body text-text-secondary text-sm leading-relaxed">{feature.description}</p>
     </div>
   );
@@ -80,7 +80,7 @@ export default function Features() {
       <div className="max-w-7xl mx-auto px-6">
         <div ref={titleRef} className="text-center mb-16">
           <span className="inline-block text-teal text-sm font-semibold font-body tracking-widest uppercase mb-4">Funcionalidades</span>
-          <h2 className="font-display font-extrabold text-text-primary mb-5 leading-tight" style={{ fontSize: "clamp(2rem, 4vw, 3rem)" }}>
+          <h2 className="font-manrope font-extrabold text-text-primary mb-5 leading-tight" style={{ fontSize: "clamp(2rem, 4vw, 3rem)" }}>
             Tudo que você precisa para
             <br />
             <span className="gradient-text">gerenciar suas viagens</span>

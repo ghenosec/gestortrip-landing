@@ -9,7 +9,7 @@ import {
 
 const features = [
   { icon: Users,          color: "teal",   title: "Gestão de Clientes",       description: "Cadastre passageiros com dados completos, histórico de viagens e status de pagamento em tempo real." },
-  { icon: MapPin,         color: "violet", title: "Controle de Viagens",       description: "Crie excursões com destino, datas, capacidade e valores. Associe clientes e monitore tudo em um só lugar." },
+  { icon: MapPin,         color: "violet", title: "Controle de Viagens",       description: "Crie excursões com destino, datas e valores. Associe clientes e monitore tudo em um só lugar." },
   { icon: CreditCard,     color: "teal",   title: "Gestão de Pagamentos",      description: "Registre entradas, acompanhe pendências e visualize o fluxo financeiro de cada viagem com precisão." },
   { icon: BarChart3,      color: "violet", title: "Dashboard Completo",        description: "KPIs, gráficos de receita e status dos clientes em um painel centralizado e sempre atualizado." },
   { icon: FileText,       color: "teal",   title: "Relatórios em PDF",         description: "Gere relatórios completos por período (mensal, trimestral, semestral ou anual) com um único clique." },

@@ -21,15 +21,15 @@ function formatBRL(value: number) {
 type Card = {
   label: string;
   value: string;
-  color: "teal" | "violet";
+  color: "teal" | "green";
   position: string;
 };
 
 const cardPositions: Pick<Card, "label" | "color" | "position">[] = [
   { label: "Total de Clientes", color: "teal",   position: "top-[12%] -left-6" },
-  { label: "Viagens Ativas",    color: "violet", position: "top-[30%] -right-6" },
+  { label: "Viagens Ativas",    color: "green", position: "top-[30%] -right-6" },
   { label: "Clientes Pagos",    color: "teal",   position: "top-[52%] -left-8" },
-  { label: "Receita Total",     color: "violet", position: "top-[68%] -right-4" },
+  { label: "Receita Total",     color: "green", position: "top-[68%] -right-4" },
   { label: "Taxa de Conclusão", color: "teal",   position: "bottom-[8%] -left-2" },
 ];
 

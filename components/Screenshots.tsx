@@ -32,7 +32,7 @@ export default function Screenshots() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-14">
           <span className="inline-block text-violet text-sm font-semibold font-body tracking-widest uppercase mb-4">Interface</span>
-          <h2 className="font-display font-extrabold text-text-primary mb-5 leading-tight" style={{ fontSize: "clamp(2rem, 4vw, 3rem)" }}>
+          <h2 className="font-manrope font-extrabold text-text-primary mb-5 leading-tight" style={{ fontSize: "clamp(2rem, 4vw, 3rem)" }}>
             Design pensado para
             <br />
             <span className="gradient-text">máxima produtividade</span>
@@ -46,7 +46,7 @@ export default function Screenshots() {
             <button
               onClick={() => setActiveTheme("dark")}
               className={`flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold font-body transition-all duration-300 ${
-                activeTheme === "dark" ? "bg-teal text-background shadow-sm" : "text-text-secondary hover:text-text-primary"
+                activeTheme === "dark" ? "bg-[#23B966] text-background shadow-sm" : "text-text-secondary hover:text-text-primary"
               }`}
             >
               <Moon size={14} /> Tema Escuro
@@ -54,7 +54,7 @@ export default function Screenshots() {
             <button
               onClick={() => setActiveTheme("light")}
               className={`flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold font-body transition-all duration-300 ${
-                activeTheme === "light" ? "bg-surface-2 text-text-primary border border-border shadow-sm" : "text-text-secondary hover:text-text-primary"
+                activeTheme === "light" ? "bg-[#0000007d] border-border shadow-sm" : "text-text-secondary"
               }`}
             >
               <Sun size={14} /> Tema Claro
@@ -85,17 +85,20 @@ export default function Screenshots() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8">
-            {[
-              { label: "Sidebar de Navegação",  desc: "Acesse qualquer módulo com um clique", color: "teal" },
-              { label: "Cards de Resumo",        desc: "KPIs do negócio sempre visíveis",      color: "violet" },
-              { label: "Gráficos em Tempo Real", desc: "Visualização de receita por viagem",   color: "teal" },
-            ].map((item) => (
-              <div key={item.label} className="bg-surface border border-border rounded-xl px-5 py-4 text-center">
-                <p className={`font-display font-bold text-sm mb-1 ${item.color === "teal" ? "text-teal" : "text-violet"}`}>{item.label}</p>
-                <p className="text-text-muted text-xs font-body">{item.desc}</p>
-              </div>
-            ))}
-          </div>
+              {[
+                { label: "Sidebar de Navegação",  desc: "Acesse qualquer módulo com um clique", color: "teal" },
+                { label: "Cards de Resumo",         desc: "KPIs do negócio sempre visíveis",     color: "green" },
+                { label: "Gráficos em Tempo Real", desc: "Visualização de receita por viagem",   color: "teal" },
+              ].map((item) => (
+                <div key={item.label} className="bg-surface border border-border rounded-xl px-5 py-4 text-center">
+                  <p className={`font-manrope font-bold text-sm mb-1 ${
+                    item.color === "teal" ? "text-teal" : "text-green"}`}>
+                    {item.label}
+                  </p>
+                  <p className="text-text-muted text-xs font-body">{item.desc}</p>
+                </div>
+              ))}
+            </div>
         </div>
       </div>
 

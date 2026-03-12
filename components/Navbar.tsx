@@ -58,7 +58,7 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-3">
 
           <a
-            href="https://github.com/ghenosec/GestorTrip/releases"
+            href="https://pub-3f0f13db5d6349cf8cb11c0581ebbfc3.r2.dev/GestorTrip-Setup.exe"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-surface border border-border text-text-primary text-sm font-semibold px-4 py-2.5 rounded-lg hover:border-border-2 hover:bg-surface-2 transition-all duration-200 font-body"
@@ -102,7 +102,7 @@ export default function Navbar() {
           ))}
 
           <a
-            href="https://github.com/ghenosec/GestorTrip/releases"
+            href="https://pub-3f0f13db5d6349cf8cb11c0581ebbfc3.r2.dev/GestorTrip-Setup.exe"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 bg-surface border border-border text-text-primary font-semibold px-5 py-3 rounded-lg font-body"

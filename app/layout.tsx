@@ -15,13 +15,21 @@ export const metadata: Metadata = {
     "controle de clientes",
     "pagamentos",
     "software viagem",
+    "sistema desktop",
+    "aplicativo viagem",
+    "gestão financeira viagem",
+    "relatórios viagem",
+    "backup viagem",
+    "exportação viagem",
+    "dashboard viagem",
+    "gestão offline de viagem",
   ],
 
   openGraph: {
     title: "GestorTrip — Gestão Completa de Viagens",
     description:
-      "Sistema desktop para gerenciamento completo de viagens. Funciona offline.",
-    images: ["/screenshots/dashboard-light.png"],
+      "Sistema desktop para gerenciamento completo de viagens, desde a criação de excursões até o controle de pagamentos. Funciona offline.",
+    images: ["/screenshots/preview.png"],
   },
 };
 
